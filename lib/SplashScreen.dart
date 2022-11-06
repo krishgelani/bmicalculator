@@ -55,7 +55,7 @@ class _SplashScreenState extends State<SplashScreen> {
   {
     Timer(
       Duration(seconds: 4),
-          () => Get.to(HomeScreen())
+          () => Get.offAll(HomeScreen())
     );
   }
 }
